@@ -4,8 +4,6 @@ import math
 from PIL import Image
 from PIL import ImageDraw
 
-images_out_folder_path = "C:\\Users\\Admin\\Downloads\\Badminton\\CourtDetectionOffical\\evaluate\\data_example\\images_out"
-
 def calculate_pck(image_folder_path, ground_truth_path, predicted_path, alpha=0.02, confidence_threshold=0.5):
     # Đọc file ground truth
     with open(ground_truth_path, 'r') as f:

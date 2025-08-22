@@ -4,7 +4,9 @@
 ```text
 CourtDetectionOffical/
 │
-├── data
+├── images/
+│
+├── outputs/
 │
 ├── evaluate/
 │   ├── data_examples/
@@ -17,6 +19,11 @@ CourtDetectionOffical/
 │   └── evaluate.py
 │
 ├── models/
+│
+├── src/
+│   ├── court_resnet50.py
+│   ├── court_detection.py
+│   └── court_detection_video.py
 │
 ├── Court Detecttion Docs.docx
 ├── requirements.txt
